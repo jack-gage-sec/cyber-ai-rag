@@ -25,3 +25,12 @@ An AI-powered cybersecurity compliance platform that combines Retrieval-Augmente
 # Research Focus
 
 This repository explores practical applications of AI within cybersecurity, with an emphasis on Retrieval-Augmented Generation, secure AI system design, data pipelines, vector databases, and AI-assisted security workflows. Each project investigates a real-world cybersecurity problem and demonstrates how modern AI architectures can be engineered to improve security operations, governance, risk management, and compliance.
+
+**About**
+
+Cybersecurity engineer with six years of experience, currently researching
+the application of large language models and autonomous agents to security
+workflows. Interested in the design tradeoffs between agent autonomy and
+human oversight in security-critical systems.
+
+📝 Blog: https://www.jackgage.net/blog · 💼 LinkedIn: https://www.linkedin.com/in/jack-gage-5a4b45157/
