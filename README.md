@@ -1,117 +1,27 @@
-# Compliance AI Platform
+# Cybersecurity AI RAG Research
 
-The Compliance AI Platform is an AI-powered cybersecurity and compliance application designed to streamline compliance analysis, evidence management, and policy retrieval. By combining a Large Language Model (LLM), Retrieval-Augmented Generation (RAG), PostgreSQL, SQLAlchemy, and Streamlit, the platform enables users to search organizational policies, analyze compliance evidence, perform AI-assisted control testing, and monitor overall compliance posture through a unified dashboard.
+A collection of research projects exploring how Retrieval-Augmented Generation (RAG), large language models, and modern AI engineering techniques can improve cybersecurity operations, compliance, governance, and security decision-making. Each project investigates a different cybersecurity use case and evaluates how AI can enhance traditionally manual security workflows.
 
-> **Disclaimer:** All policies, users, security events, compliance records, and other data used throughout this project are entirely fictitious and were created solely for demonstration and experimentation purposes. No real organizational or personally identifiable information is included.
-
----
-
-# Features
-
-## Home Dashboard
-
-The home page provides a high-level overview of the organization's compliance and security posture. It summarizes compliance metrics, recent AI assessments, security alerts, and key findings, giving users a quick snapshot of current risk and compliance status.
+Each project lives in its own branch with full documentation, architecture diagrams, sample output, and implementation details. This README serves as the central index.
 
 ---
 
-## Policy QA
+# Projects
 
-Policy QA enables users to ask natural language questions about organizational policies. Using Retrieval-Augmented Generation (RAG), the application retrieves relevant policy information from the knowledge base and generates evidence-grounded responses.
+## Compliance AI Platform
 
-Example questions include:
+**Branch:** `compliance-ai-platform` · **Status:** Complete
 
-* What are the requirements for privileged access?
-* How often should access reviews be performed?
-* What is the organization's password policy?
+An AI-powered cybersecurity compliance platform that combines Retrieval-Augmented Generation (RAG), relational databases, and large language models to assist with policy retrieval, compliance evidence management, AI-assisted control assessments, and security reporting. The platform demonstrates how organizational policies and structured compliance data can be integrated into a unified workflow to improve audit readiness and reduce the effort required to locate, analyze, and interpret compliance information.
 
----
+**The core research question:** *How can Retrieval-Augmented Generation and AI-assisted workflows improve cybersecurity compliance by providing accurate, evidence-grounded access to organizational policies and compliance data while maintaining transparency and auditability?*
 
-## AI Control Testing
+**Stack:** Streamlit, PostgreSQL, SQLAlchemy, LangChain, Chroma, Hugging Face Embeddings
 
-The AI Control Testing page evaluates security and compliance controls against available evidence. Users provide a control identifier, and the platform generates:
-
-* Pass/Fail assessment
-* Supporting evidence
-* AI-generated recommendation
+📄 Branch README · 🏗️ Architecture Deep Dive · 📊 Sample Output
 
 ---
 
-## Compliance Evidence
+# Research Focus
 
-The Compliance Evidence page displays structured compliance evidence stored within the PostgreSQL database.
-
-Current evidence includes:
-
-* Access Reviews
-* Policy Exceptions
-
-These records provide visibility into user access, approved exceptions, reviewers, approval status, and supporting compliance information.
-
----
-
-## AI Audit Log
-
-The AI Audit Log records system activity to support AI governance and auditability.
-
-Each audit record includes:
-
-* User
-* Action performed
-* Resource accessed
-* Timestamp
-* Purpose
-* Records processed
-
----
-
-## AI Workspace
-
-The AI Workspace provides an interactive chatbot capable of answering compliance questions and assisting with compliance-related tasks.
-
-Users can:
-
-* Ask policy questions
-* Generate compliance assessments
-* Retrieve organizational knowledge
-* Explore compliance information using AI
-
----
-
-## Assessment History
-
-Assessment History maintains a historical record of AI-generated control assessments.
-
-Each assessment includes:
-
-* Control identifier
-* Framework
-* Assessment result
-* Evidence reviewed
-* Findings
-* Test date
-
-This allows users to review previous compliance evaluations and track assessment outcomes over time.
-
----
-
-## Evidence Explorer
-
-The Evidence Explorer provides a centralized interface for browsing compliance evidence collected throughout the organization.
-
-Users can review evidence records, investigate supporting documentation, and better understand how evidence supports compliance activities.
-
----
-
-## System Health
-
-System Health monitors the operational status of the Compliance AI Platform.
-
-Health checks include:
-
-* PostgreSQL database connectivity
-* Data pipeline status
-* Chroma vector database availability
-* AI model availability
-
-This page provides operational visibility into the platform's core services.
-
+This repository explores practical applications of AI within cybersecurity, with an emphasis on Retrieval-Augmented Generation, secure AI system design, data pipelines, vector databases, and AI-assisted security workflows. Each project investigates a real-world cybersecurity problem and demonstrates how modern AI architectures can be engineered to improve security operations, governance, risk management, and compliance.
